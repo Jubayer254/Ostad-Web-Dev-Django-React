@@ -1,0 +1,82 @@
+[
+    {
+        "model": "todo_app.book_author",
+        "pk": 1,
+        "fields": {
+            "book_id": 1,
+            "author_id": 1
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 2,
+        "fields": {
+            "book_id": 1,
+            "author_id": 2
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 3,
+        "fields": {
+            "book_id": 2,
+            "author_id": 2
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 4,
+        "fields": {
+            "book_id": 2,
+            "author_id": 3
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 5,
+        "fields": {
+            "book_id": 3,
+            "author_id": 3
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 6,
+        "fields": {
+            "book_id": 4,
+            "author_id": 1
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 7,
+        "fields": {
+            "book_id": 5,
+            "author_id": 4
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 8,
+        "fields": {
+            "book_id": 5,
+            "author_id": 5
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 9,
+        "fields": {
+            "book_id": 6,
+            "author_id": 6
+        }
+    },
+    {
+        "model": "todo_app.book_author",
+        "pk": 10,
+        "fields": {
+            "book_id": 6,
+            "author_id": 1
+        }
+    }
+]

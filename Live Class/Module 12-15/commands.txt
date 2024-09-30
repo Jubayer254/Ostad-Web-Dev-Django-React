@@ -1,0 +1,34 @@
+--VIRTUAL ENVIRONMENT
+
+pip3 install pipenv
+pipenv shell
+>Python: Select Interpreter (VSCode)
+which python
+
+--DJANGO
+
+pipenv install django
+
+django-admin startproject my_project
+or
+django-admin startproject my_project . --[to create project in the current directiory...] 
+
+python manage.py runserver 8000
+
+python manage.py migrate
+
+python manage.py startapp myapp
+
+python manage.py makemigrations "app_name"
+
+python manage.py migrate "app_name"
+
+python manage.py createsuperuser
+
+python manage.py loaddata "app_name"/"json_file"
+Example: python manage.py loaddata todo_app/tasks_test
+
+python manage.py shell
+exit() [to exit shell]
+
+python manage.py migrate products zero

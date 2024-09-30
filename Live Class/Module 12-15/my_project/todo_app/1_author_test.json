@@ -1,0 +1,92 @@
+[
+    {
+        "model": "todo_app.author",
+        "pk": 1,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Doe",
+            "bio": "John is a software developer specializing in web applications."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 2,
+        "fields": {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "bio": "Jane is an experienced project manager with a background in agile methodologies."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 3,
+        "fields": {
+            "first_name": "Alice",
+            "last_name": "Johnson",
+            "bio": "Alice is a UX designer focused on creating intuitive user experiences."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 4,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Williams",
+            "bio": "Bob is a backend developer with expertise in database management and APIs."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 5,
+        "fields": {
+            "first_name": "Clara",
+            "last_name": "Adams",
+            "bio": "Clara is a data scientist with a passion for machine learning and analytics."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 6,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Miller",
+            "bio": "David is a cloud architect with extensive experience in AWS and Azure services."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 7,
+        "fields": {
+            "first_name": "Eva",
+            "last_name": "Brown",
+            "bio": "Eva is a front-end developer who loves building responsive, accessible websites."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 8,
+        "fields": {
+            "first_name": "Frank",
+            "last_name": "Garcia",
+            "bio": "Frank is a DevOps engineer focusing on CI/CD pipelines and infrastructure as code."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 9,
+        "fields": {
+            "first_name": "Grace",
+            "last_name": "Taylor",
+            "bio": "Grace is a cybersecurity specialist with a focus on network security and encryption."
+        }
+    },
+    {
+        "model": "todo_app.author",
+        "pk": 10,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "Lee",
+            "bio": "Henry is an AI researcher working on natural language processing and computer vision."
+        }
+    }
+]

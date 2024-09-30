@@ -1,23 +1,39 @@
-Create a new branch locally:
-git checkout -b new-branch-name
+1. Git Configuration
+  **Set global username and email:**
+  git config --global user.name "Your Name"
+  git config --global user.email "youremail@example.com"
 
-Make your changes and commit them:
+2. Initializing a Repository
+Initialize a new Git repository:
+git init
+
+3. Cloning a Repository
+Clone a repository from GitHub:
+git clone https://github.com/user/repository.git
+
+4.Make your changes and commit them:
 git add .
 git commit -m "Your commit message"
 
-Push the new branch to GitHub:
+5.Create a new branch locally:
+git checkout -b new-branch-name
+
+6.Push the new branch to GitHub:
 git push -u origin new-branch-name
 
-Switch Branch:
+7.Switch Branch:
 git branch
 git checkout branch-name
 
-To merge the dev branch into the main branch, follow these steps:
+8. To merge the dev branch into the main branch, follow these steps:
 Ensure you are on the main branch:
 git checkout main
+
 Pull the latest changes from the remote repository (optional but recommended):
 git pull origin main
+
 Merge the dev branch into the main branch:
 git merge dev
+
 Push the updated main branch to the remote repository:
 git push origin main
