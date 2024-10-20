@@ -1,0 +1,1 @@
+python manage.py loaddata todo_app/2_books_test.json

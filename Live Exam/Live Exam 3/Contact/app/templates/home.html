@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Saved Contacts</h1>
+<form method="post" action="">
+    {% csrf_token %}
+    <input type="text" name="q" placeholder="Search by name or email" />
+    <button type="submit">Search</button>
+</form>
+<center>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for contact in contacts %}
+            <tr>
+                <td>
+                    <a href="{% url 'contact_detail' contact.id %}">{{ contact.first_name }}</a>
+                </td>
+                <td>{{ contact.email }}</td>
+                <td>{{ contact.phone_number }}</td>
+                <td>
+                    <a href="{% url 'edit_contact' contact.id %}">Edit</a> |
+                    <a href="{% url 'delete_contact' contact.id %}">Delete</a><br>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</center>
+{% endblock %}

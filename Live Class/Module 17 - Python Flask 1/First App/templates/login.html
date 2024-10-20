@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="POST">
+        <input name="username" type="text" placeholder="Enter your username">
+        <input name="password" type="password" placeholder="Enter your password">
+        <button type="submit">Login</button>
+    </form>
+
+    {% if error %}
+        <p style="color: brown;">Invalid Credentials</p>
+    {% endif %}
+</body>
+</html>

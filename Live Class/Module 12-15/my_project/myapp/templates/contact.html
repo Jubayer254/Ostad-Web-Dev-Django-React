@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block title %} Contact {% endblock %}
+{% block content %}
+<h2>Contact Us</h2>
+    <p>Email: {{ email }}</p>
+    <p>
+      <ul>
+        {% for profile in social_profiles %}
+          <!-- TEMPLATE FILTER -->
+          <li>{{ profile | lower}}</li> 
+        {% endfor %}
+      </ul>
+    </p>
+    <p>Our Headquater is in
+      {% if hq == "d" %}
+      <strong>Dhaka</strong>
+      {% elif hq == "r" %}
+      <strong>Rajshahi</strong>
+      {% else %}
+      <strong>Area 51</strong>
+      {% endif %}
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloribus nesciunt animi vitae excepturi provident asperiores ducimus quidem dolorum iusto?</p>
+{% endblock %}

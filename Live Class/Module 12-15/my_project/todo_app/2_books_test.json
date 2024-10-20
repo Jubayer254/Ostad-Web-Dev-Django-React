@@ -1,0 +1,102 @@
+[
+    {
+        "model": "todo_app.book",
+        "pk": 1,
+        "fields": {
+            "title": "Introduction to Web Development",
+            "description": "A comprehensive guide to modern web development practices.",
+            "publication_date": "2020-05-15",
+            "author": 1
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 2,
+        "fields": {
+            "title": "Agile Project Management",
+            "description": "An in-depth look at agile methodologies and best practices.",
+            "publication_date": "2019-08-22",
+            "author": 2
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 3,
+        "fields": {
+            "title": "Designing User Experiences",
+            "description": "Strategies and principles for creating intuitive UX designs.",
+            "publication_date": "2021-01-10",
+            "author": 3
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 4,
+        "fields": {
+            "title": "Mastering Databases",
+            "description": "Advanced techniques in database management and optimization.",
+            "publication_date": "2018-11-05",
+            "author": 4
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 5,
+        "fields": {
+            "title": "Machine Learning Essentials",
+            "description": "Fundamentals of machine learning and data science.",
+            "publication_date": "2021-07-19",
+            "author": 5
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 6,
+        "fields": {
+            "title": "Cloud Architecture and Services",
+            "description": "Exploring cloud computing with AWS and Azure.",
+            "publication_date": "2020-03-27",
+            "author": 6
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 7,
+        "fields": {
+            "title": "Responsive Web Design",
+            "description": "Techniques for building websites that look great on any device.",
+            "publication_date": "2019-12-12",
+            "author": 7
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 8,
+        "fields": {
+            "title": "Continuous Integration and Delivery",
+            "description": "Implementing CI/CD pipelines for efficient software deployment.",
+            "publication_date": "2021-04-30",
+            "author": 8
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 9,
+        "fields": {
+            "title": "Network Security Fundamentals",
+            "description": "Protecting networks through advanced security practices.",
+            "publication_date": "2018-06-17",
+            "author": 9
+        }
+    },
+    {
+        "model": "todo_app.book",
+        "pk": 10,
+        "fields": {
+            "title": "Artificial Intelligence in Practice",
+            "description": "Applications of AI in modern technology.",
+            "publication_date": "2022-02-08",
+            "author": 10
+        }
+    }
+]

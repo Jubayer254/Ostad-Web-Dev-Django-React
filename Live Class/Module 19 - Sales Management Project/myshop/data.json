@@ -1,0 +1,92 @@
+[
+    {
+        "model": "products.Categoty",
+        "pk": 1,
+        "fields": {
+            "title": "Electronics",
+            "is_active": true
+        }
+    },
+    {
+        "model": "products.Categoty",
+        "pk": 2,
+        "fields": {
+            "title": "Fitness",
+            "is_active": true
+        }
+    },
+    {
+        "model": "products.Categoty",
+        "pk": 3,
+        "fields": {
+            "title": "Home Appliances",
+            "is_active": true
+        }
+    },
+    {
+        "model": "products.Categoty",
+        "pk": 4,
+        "fields": {
+            "title": "Books",
+            "is_active": false
+        }
+    },
+    {
+        "model": "products.Categoty",
+        "pk": 5,
+        "fields": {
+            "title": "Fashion",
+            "is_active": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "title": "Wireless Headphones",
+            "description": "High-quality wireless headphones with noise cancellation.",
+            "price": 99.99,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "title": "Smartphone Case",
+            "description": "Durable smartphone case compatible with most models.",
+            "price": 15.99,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "title": "Yoga Mat",
+            "description": "Eco-friendly yoga mat with extra grip.",
+            "price": 25.00,
+            "category": 2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "title": "Blender",
+            "description": "High-speed blender for smoothies and soups.",
+            "price": 49.99,
+            "category": 3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "title": "Gaming Mouse",
+            "description": "Ergonomic gaming mouse with customizable buttons.",
+            "price": 39.99,
+            "category": 1
+        }
+    }
+]

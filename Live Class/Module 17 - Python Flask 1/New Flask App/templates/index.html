@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="">
+{% endblock %}
+
+{% block content %}
+    <p>Welcome to the homepage {{name}}!</p>
+    <h3>Feedbacks</h3>
+    <ul>
+        {% for x in contacts %}
+        <li>{{x.name}} - {{x.email}} - {{x.message}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
